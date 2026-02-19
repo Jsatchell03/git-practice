@@ -26,4 +26,37 @@ img {
   width: 100%;
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  margin-bottom: 1.5rem;
+}
+
+#click-display {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+button {
+  padding: 0.6rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin: 0.25rem;
+}
+
+#click-button {
+  background-color: #4a90d9;
+  color: white;
+}
+
+#click-button:hover {
+  background-color: #3a7bc8;
+}
+
+#reset-button {
+  background-color: #e0e0e0;
+  color: #333;
+}
+
+#reset-button:hover {
+  background-color: #d0d0d0;
 }
